@@ -63,7 +63,7 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 45vh;
+  height: 50vh;
 }
 .project-offer h3 {
   font-size: 2em;
@@ -93,7 +93,7 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 65vh;
 }
 .services h3 {
   font-size: 1.2em;
@@ -144,7 +144,7 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 85vh;
   width: 100%;
   text-align: center;
   position: relative;
