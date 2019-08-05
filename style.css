@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+ul, li {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(18, 148, 235);
+}
+a:hover {
+  text-decoration: underline;
+}
+nav {
+  display: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(assets/joanna-kosinska-LAaSoL0LrYs-unsplash.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  font-size: 4.5em;
+  color: #fff;
+  text-shadow: 3px 5px 6px rgba(43, 42, 42, 5);
+}
+header p {
+  font-size: 1.5em;
+  padding: .5em;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 2px 3px 4px rgba(43, 42, 42, 5);
+}
+.cta-btn {
+  font-size: 1.2em;
+  margin-top: 3em;
+  padding: 1.1em 1.5em;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(167, 7, 100);
+  color: #fff;
+  cursor: pointer;
+}
+.cta-btn:hover {
+  background-color: rgba(167, 7, 100, .7);
+}
+.project-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+.project-offer h3 {
+  font-size: 2em;
+  color: rgb(34, 34, 34);
+}
+.project-offer p {
+  padding: .5em;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+.offer {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+  font-size: 1em;
+  padding: 1em 1.5em;
+  margin-top: 2.5em;
+  cursor: pointer;
+}
+.offer:hover {
+  background-color: rgba(34, 34, 34, .8);
+}
+.services {
+  background-color: rgb(0, 132, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.services h3 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: rgb(255, 208, 0);
+  text-shadow: 1px 1px 2px rgba(43, 42, 42, 5);
+  margin-top: -4em;
+}
+.services-subtitle {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.services-container {
+  display: flex;
+  justify-content: space-between;
+}
+.services-provided {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 1em;
+}
+.services-provided h4 {
+  font-size: 1.5em;
+  margin: 1em;
+}
+.services-img-container {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+.services-img-container img {
+  object-fit: cover;
+  margin-top: 1.5em;
+  opacity: .8;
+}
