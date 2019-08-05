@@ -34,16 +34,17 @@ header {
 h1 {
   font-size: 4.5em;
   color: #fff;
-  text-shadow: 3px 5px 6px rgba(43, 42, 42, 5);
+  text-shadow: 3px 5px 6px rgba(43, 42, 42, .9);
 }
 header p {
   font-size: 1.5em;
   padding: .5em;
   font-style: italic;
   color: #fff;
-  text-shadow: 2px 3px 4px rgba(43, 42, 42, 5);
+  text-shadow: 2px 3px 4px rgba(43, 42, 42, .8);
 }
-.cta-btn {
+.cta-btn,
+.download-now {
   font-size: 1.2em;
   margin-top: 3em;
   padding: 1.1em 1.5em;
@@ -53,7 +54,8 @@ header p {
   color: #fff;
   cursor: pointer;
 }
-.cta-btn:hover {
+.cta-btn:hover,
+.download-now:hover {
   background-color: rgba(167, 7, 100, .7);
 }
 .project-offer {
@@ -91,14 +93,14 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 75vh;
 }
 .services h3 {
   font-size: 1.2em;
   text-transform: uppercase;
-  color: rgb(255, 208, 0);
-  text-shadow: 1px 1px 2px rgba(43, 42, 42, 5);
-  margin-top: -4em;
+  color: rgb(255, 187, 0);
+  text-shadow: 2px 1px 2px rgba(43, 42, 42, .96);
+  letter-spacing: 2px;
 }
 .services-subtitle {
   color: #fff;
@@ -116,6 +118,8 @@ header p {
   align-items: center;
   color: #fff;
   padding: 1em;
+  width: 300px;
+  text-align: center;
 }
 .services-provided h4 {
   font-size: 1.5em;
@@ -132,4 +136,148 @@ header p {
   object-fit: cover;
   margin-top: 1.5em;
   opacity: .8;
+}
+.new-website {
+  background: url(assets/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.new-website h3 {
+  font-size: 3em;
+  color: rgb(34, 34, 34);
+  text-shadow: 1px 1px 2px rgba(43, 42, 42, .8);
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 4em 0;
+}
+.portfolio h3 {
+  color: rgb(255, 187, 0);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.portfolio-subtitle {
+  font-size: 3em;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  margin-bottom: 1.5em;
+}
+.portfolio-container {
+  display: flex;
+}
+.portfolio-row1,
+.portfolio-row2 {
+  flex-basis: 100%;
+}
+.portfolio-item-background {
+  height: 350px;
+}
+.stationary {
+  background: url(assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg) no-repeat;
+  background-size: cover;
+}
+.dark-blue {
+  background: url(assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg) no-repeat;
+  background-size: cover;
+}
+.maroon {
+  background: url(assets/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg) no-repeat;
+  background-size: cover;
+}
+.grey {
+  background: url(assets/kelly-sikkema-g59r724bayQ-unsplash.jpg) no-repeat;
+  background-size: cover;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content:  flex-end;
+  color: #fff;
+  padding: 1em 1em 5em 1em;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+.portfolio-item h4 {
+  text-transform: uppercase;
+  font-size: .9em;
+  margin: .5em 0;
+  text-shadow: 1px 1px 2px rgba(43, 42, 42, .8);
+}
+.portfolio-item p {
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(43, 42, 42, .8);
+}
+.dark-blue h4,
+.maroon h4, 
+.dark-blue p,
+.maroon p {
+  text-align: right;
+}
+.press-me-btns {
+  background-color: rgb(70, 13, 175);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+.press-me-btns h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.click-me,
+.look-at-me {
+  font-size: 1.2em;
+  margin-top: 1.5em;
+  padding: 1.1em 1.5em;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+.click-me {
+  background-color: rgb(167, 7, 100);
+  margin-right: 2em;
+}
+.click-me:hover {
+  background-color: rgba(167, 7, 100, .6);
+}
+.look-at-me {
+  background-color: rgb(0, 132, 255);
+}
+.look-at-me:hover {
+  background-color: rgba(0, 132, 255, .6);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4em;
+  width: 20%;
+}
+.media-bg {
+  background-color: lightgrey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
