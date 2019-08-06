@@ -338,4 +338,8 @@ footer {
   bottom: 20px;
   right: 16px;
   cursor: pointer;
+  opacity: .5;
+}
+.button-up:hover {
+  opacity: 1;
 }
