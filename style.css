@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *::after, *::before {
   box-sizing: inherit;
@@ -18,15 +19,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
-nav {
-  display: none;
-}
+/* nav {
+  /* display: none; */
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(assets/joanna-kosinska-LAaSoL0LrYs-unsplash.jpg) no-repeat;
+  background: url(assets/joanna-kosinska-hero.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -58,18 +58,18 @@ header p {
 .download-now:hover {
   background-color: rgba(167, 7, 100, .7);
 }
-.project-offer {
+#project-offer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 50vh;
 }
-.project-offer h3 {
+#project-offer h3 {
   font-size: 2em;
   color: rgb(34, 34, 34);
 }
-.project-offer p {
+#project-offer p {
   padding: .5em;
   font-size: 1.1em;
   font-weight: 300;
@@ -87,7 +87,7 @@ header p {
 .offer:hover {
   background-color: rgba(34, 34, 34, .8);
 }
-.services {
+#services {
   background-color: rgb(0, 132, 255);
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ header p {
   align-items: center;
   height: 65vh;
 }
-.services h3 {
+#services h3 {
   font-size: 1.2em;
   text-transform: uppercase;
   color: rgb(255, 187, 0);
@@ -137,8 +137,8 @@ header p {
   margin-top: 1.5em;
   opacity: .8;
 }
-.new-website {
-  background: url(assets/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg) no-repeat center;
+#new-website {
+  background: url(assets/joanna-kosinska-yellow-scissors.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -149,12 +149,12 @@ header p {
   text-align: center;
   position: relative;
 }
-.new-website h3 {
+#new-website h3 {
   font-size: 3em;
   color: rgb(34, 34, 34);
   text-shadow: 1px 1px 2px rgba(43, 42, 42, .8);
 }
-.portfolio {
+#portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +162,7 @@ header p {
   min-height: 100vh;
   margin: 4em 0;
 }
-.portfolio h3 {
+#portfolio h3 {
   color: rgb(255, 187, 0);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -184,19 +184,19 @@ header p {
   height: 350px;
 }
 .stationary {
-  background: url(assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg) no-repeat;
+  background: url(assets/joanna-kosinska-1-yellow-pencils.jpg) no-repeat;
   background-size: cover;
 }
 .dark-blue {
-  background: url(assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg) no-repeat;
+  background: url(assets/joanna-kosinska-dark-blue.jpg) no-repeat;
   background-size: cover;
 }
 .maroon {
-  background: url(assets/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg) no-repeat;
+  background: url(assets/joanna-kosinska-maroon.jpg) no-repeat;
   background-size: cover;
 }
 .grey {
-  background: url(assets/kelly-sikkema-g59r724bayQ-unsplash.jpg) no-repeat;
+  background: url(assets/kelly-sikkema-grey.jpg) no-repeat;
   background-size: cover;
 }
 .portfolio-item {
@@ -225,7 +225,7 @@ header p {
 .maroon p {
   text-align: right;
 }
-.press-me-btns {
+#press-me-btns {
   background-color: rgb(70, 13, 175);
   display: flex;
   flex-direction: column;
@@ -233,7 +233,7 @@ header p {
   align-items: center;
   height: 45vh;
 }
-.press-me-btns h3 {
+#press-me-btns h3 {
   color: #fff;
   font-size: 2em;
   font-weight: 700;

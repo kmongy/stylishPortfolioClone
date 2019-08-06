@@ -10,10 +10,12 @@
   </head>
 
   <body>
-    <nav>
+    <nav id="navigation-sidebar">
+      <span>Start Bootstrap</span>
+      <div class="open-close-nav-btn">
+        <img src="https://img.icons8.com/cotton/64/000000/menu.png">
+      </div>
       <ul>
-        <span>Start Bootstrap</span>
-        <div class="open-close-nav-btn">x</div>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -22,19 +24,19 @@
       </ul>
     </nav>
 
-    <header>
+    <header id="hero">
       <h1>Stylish Portfolio</h1>
       <p>A Clone of a Bootstrap Theme with No Bootstrap</p>
-      <button class="cta-btn">Find Out More</button>
+      <a href="#project-offer"><button class="cta-btn">Find Out More</button></a>
     </header>
 
-    <section class="project-offer">
+    <section id="project-offer">
       <h3>Stylish Portfolio is the perfect theme for your next project!</h3>
       <p>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at <a href="https://unsplash.com/">Unsplash</a>!</p>
-      <button class="offer">What We Offer</button>
+      <a href="#services"><button class="offer">What We Offer</button></a>
     </section>
 
-    <section class="services">
+    <section id="services">
       <h3>services</h3>
       <p class="services-subtitle">What We Offer</p>
       <div class="services-container">
@@ -69,12 +71,12 @@
       </div>
     </section>
 
-    <section class="new-website">
+    <section id="new-website">
       <h3>Welcome to <em>your</em><br> next website!</h3>
       <button class="download-now">Download Now!</button>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio">
       <h3>Portfolio</h3>
       <p class="portfolio-subtitle">Recent Projects</p>
       <div class="portfolio-container">
@@ -109,7 +111,7 @@
       </div>
     </section>
 
-    <section class="press-me-btns">
+    <section id="press-me-btns">
       <h3>The buttons below are impossible to resist...</h3>
       <div class="press-me-btns-container">
         <button class="click-me">Click Me!</button>
