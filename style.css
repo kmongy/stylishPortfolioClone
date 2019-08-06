@@ -19,8 +19,55 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* nav {
-  /* display: none; */
+.navigation-sidebar {
+  background-color: rgb(0, 132, 255);
+  width: 20%;
+  height: 100vh;
+  visibility: hidden;
+  top: 0;
+  right: 0;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 10;
+  transform: translate(25rem);
+  transition: transform 0.5s ease, visibility 0.5s;
+}
+.nav-visible {
+  visibility: visible;
+  transform: translateX(0);
+}
+.open-close-nav-btn .open-close-toggle {
+  background-color:rgba(190, 190, 190, 0.5);
+  object-fit: cover;
+  height: 50px;
+  border-radius: 8px;
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  cursor: pointer;
+}
+.nav-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 13, 175);
+  padding: 1em;
+}
+.navigation-sidebar p {
+  color: #fff;
+  font-size: 1.4em;
+  padding: .5em;
+}
+.navigation-sidebar a {
+  color: #fff;
+  font-size: 1.2em;
+}
+.navigation-sidebar li {
+  padding: 1em;
+}
+.navigation-sidebar li:hover {
+  background-color: rgba(167, 7, 100, .6);
+}
 header {
   display: flex;
   flex-direction: column;
@@ -147,7 +194,6 @@ header p {
   height: 85vh;
   width: 100%;
   text-align: center;
-  position: relative;
 }
 #new-website h3 {
   font-size: 3em;
